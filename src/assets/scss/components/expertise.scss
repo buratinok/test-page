@@ -1,0 +1,32 @@
+.section-expertise {
+	
+	.card-4, .card-5, .card-6 {
+		border-bottom: none;
+	} 
+
+		.card-1, .card-2, .card-3 {
+			border-top: none;
+		}
+
+			.card-1, .card-4 {
+				border-left: none;
+			}
+
+				.card-3, .card-6 {
+					border-right: none;
+				} 
+
+					.expertise-title {
+
+						&:before {
+							position: absolute;
+							content: "";
+							width: 50px;
+							height: 2px;
+							background: rgba(198, 196, 201, 0.7);
+							align-items: center;
+							margin-top: 25px;
+						}
+					}
+
+}
