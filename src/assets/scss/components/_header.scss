@@ -47,13 +47,18 @@ header {
 	.header-button {
 		z-index: 1;
 	}
-	
-	.slider-scroll span{
+
+	.slider-scroll span {
 		z-index: 1;
 		margin: 5px;
 		width: 11px;
 		height: 11px;
 		border: 1px solid white;
 		border-radius: 50%;
+		cursor: pointer;
+	}
+
+	.slider-scroll span.active {
+		background: #00e0d0;
 	}
 } 
