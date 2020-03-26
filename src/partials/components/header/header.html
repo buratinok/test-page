@@ -2,9 +2,9 @@
     <div class="container header">
         <div class="row">
             <div class="col-2 header-logo mt-3 ml-5">
-                <img src="assets/img/header/logo.png" alt="">
+                <a href=""><img src="assets/img/header/logo.png" alt=""></a>
             </div>
-            <div class="col mt-4 header-top-menu">
+            <div class="col pt-4 header-top-menu">
 
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
@@ -31,17 +31,54 @@
                 </ul>
             </div>
         </div>
-        <div class="d-flex justify-content-center align-items-center flex-column " style="height: 70%;" >
-            <h1 class=" text-center">We Are Awesome Creative Agency</h1>
-            <div class="heder-line m-4"></div>
-            <p class=" text-center">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis<br> bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a<br> sit amet mauris. Morbi accumsan ipsum velit.</p>
-            <button type="button" class="btn btn-outline-success font-weight-bold px-3 py-2 mt-5 text-uppercase header-button">Learn more</button>
+
+        <div id="carouselExampleIndicators" class="carousel slide d-flex justify-content-center align-items-center" data-ride="carousel" style="height: 75%;">
+            <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active "></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active " data-interval="20000">
+                    <div class="d-flex justify-content-center align-items-center flex-column ">
+                        <h1 class=" text-center text-white">We Are Awesome Creative Agency</h1>
+                        <div class="heder-line mt-3 mb-3"></div>
+                        <p class=" text-center text-white">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis<br> bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a<br> sit amet mauris. Morbi accumsan ipsum velit.</p>
+                        <button type="button" class="btn btn-outline-success font-weight-bold px-3 py-2 mt-5 text-uppercase header-button">Learn more</button>
+                    </div>                  
+                </div>
+                {{#repeat 3}}
+                <div class="carousel-item" data-interval="20000">
+                    <div class="d-flex justify-content-center align-items-center flex-column ">
+                        <h1 class=" text-center text-white">We Are Awesome Creative Agency</h1>
+                        <div class="heder-line mt-3 mb-3"></div>
+                        <p class=" text-center text-white">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis<br> bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a<br> sit amet mauris. Morbi accumsan ipsum velit.</p>
+                        <button type="button" class="btn btn-outline-success font-weight-bold px-3 py-2 mt-5 text-uppercase header-button">Learn more</button>
+                    </div>                  
+                </div>
+                {{/repeat}}
+                <!-- <div class="carousel-item">
+                    <div class="d-flex justify-content-center align-items-center flex-column ">
+                        <h1 class=" text-center">We Are Awesome Creative Agency</h1>
+                        <div class="heder-line mt-3 mb-3"></div>
+                        <p class=" text-center">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis<br> bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a<br> sit amet mauris. Morbi accumsan ipsum velit.</p>
+                        <button type="button" class="btn btn-outline-success font-weight-bold px-3 py-2 mt-5 text-uppercase header-button">Learn more</button>
+                    </div>                 
+                </div>
+        
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center align-items-center flex-column ">
+                        <h1 class=" text-center">We Are Awesome Creative Agency</h1>
+                        <div class="heder-line mt-3 mb-3"></div>
+                        <p class=" text-center">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis<br> bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a<br> sit amet mauris. Morbi accumsan ipsum velit.</p>
+                        <button type="button" class="btn btn-outline-success font-weight-bold px-3 py-2 mt-5 text-uppercase header-button">Learn more</button>
+                    </div>                 
+                </div> -->
+            </div>
         </div>
-        <div class="d-flex justify-content-center align-items-center mt-5 slider-scroll" >
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+
+
     </div>
 </header>

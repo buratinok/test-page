@@ -1,6 +1,5 @@
+//
 
+import caruselJane from "./components/carusel-jane";
 
-function f() {
-    return console.log('hello')
-}
-f;
+caruselJane();
