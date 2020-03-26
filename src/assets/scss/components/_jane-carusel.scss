@@ -1,0 +1,26 @@
+.jane-galadriel {
+    position: relative;
+	height: 438px;
+	background-image: url("../img/jane/bg-jane.jpg");
+	background-clip: padding-box;
+    background-origin: border-box;
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &:before {
+    	position: absolute;
+    	background: #302256;
+    	content: "";
+    	width: 100%;
+    	height: 100%;
+    	top: 0;
+    	left: 0;
+    	opacity: .85;
+    	z-index: 0;
+    }
+    .jane-carusel {
+        height: 100%;
+    }
+
+}
